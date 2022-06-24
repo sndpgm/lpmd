@@ -43,8 +43,3 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: artifacts
-
-      - name: Publish PyTest Results
-        uses: EnricoMi/publish-unit-test-result-action@v1
-        with:
-          files: artifacts/*.xml
