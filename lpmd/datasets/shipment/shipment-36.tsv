@@ -1,0 +1,26 @@
+year	pig	cattle	adult_cattle	wagyu	wagyu_heifer	wagyu_steer	wagyu_bull	dairy_cattle	dairy_cow	dairy_fattening_bull	other	other_cow	other_bull	calf_wagyu	calf_dairy	calf_dairy_fattening_bull	calf_other	horse	foal	sheep	goat	prefecture	source_url
+1985	98687.0		19841.0	11185.0	7262.0	3890.0	33.0	8656.0	5291.0	3365.0				10.0	48.0	17.0		70.0		2.0	3.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1986	87777.0		19413.0	10956.0	7005.0	3889.0	62.0	8455.0	5267.0	3188.0	2.0	2.0		10.0	35.0	21.0		72.0			5.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1987	81633.0		18373.0	10070.0	6571.0	3486.0	13.0	8266.0	5170.0	3096.0	37.0		37.0	9.0	6.0	4.0		35.0			2.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1988	79342.0		17695.0	9517.0	6458.0	3050.0	9.0	8007.0	5121.0	2886.0	171.0	25.0	146.0	6.0	6.0	5.0		28.0			3.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1989	81940.0		17114.0	9155.0	6360.0	2781.0	14.0	7500.0	4900.0	2600.0	459.0	55.0	404.0	1.0	3.0	2.0		41.0		1.0		山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1990	77106.0		15876.0	8424.0	5698.0	2723.0	3.0	7197.0	4527.0	2670.0	255.0	39.0	216.0	6.0	12.0	7.0		12.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1991	75296.0		16709.0	8575.0	5824.0	2747.0	4.0	7354.0	4324.0	3030.0	780.0	113.0	667.0	4.0	6.0	2.0	1.0	18.0	1.0	3.0		山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1992	76201.0		15708.0	7527.0	4917.0	2604.0	6.0	7531.0	4502.0	3029.0	650.0	45.0	605.0		4.0			35.0		10.0	1.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1993	70994.0		15321.0	7813.0	5125.0	2686.0	2.0	6806.0	4427.0	2379.0	702.0	17.0	685.0		2.0	2.0		32.0		6.0	2.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1994	71664.0		15342.0	8230.0	4963.0	3264.0	3.0	6164.0	4144.0	2020.0	948.0	9.0	939.0		10.0	10.0		26.0		13.0	9.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1995	67841.0	14577.0	14572.0	8165.0	4974.0	3190.0	1.0	5490.0	3590.0	1900.0	917.0	2.0	915.0	1.0	3.0	2.0	1.0	30.0		4.0	7.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1996	60949.0	13645.0	13627.0	7749.0	4527.0	3220.0	2.0	4932.0	3470.0	1462.0	946.0	26.0	920.0		18.0	10.0		25.0		4.0	5.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1997	56620.0	12892.0	12886.0	7690.0	4490.0	3197.0	3.0	4147.0	2850.0	1297.0	1049.0	50.0	999.0	6.0				60.0		9.0	4.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1998	59000.0	12699.0	12695.0	7648.0	4700.0	2940.0	8.0	4210.0	2910.0	1300.0	837.0		837.0		4.0	2.0		37.0		2.0	5.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+1999	56800.0	11848.0	11848.0	7645.0	4430.0	3210.0	5.0	3267.0	1877.0	1390.0	936.0	1.0	935.0					55.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2000	54645.0	12248.0	12246.0	7435.0	4500.0	2928.0	7.0	3986.0	2750.0	1236.0	825.0	1.0	824.0	1.0	1.0	1.0		19.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2001	54423.0	12021.0	12017.0	7637.0	4494.0	3136.0	7.0	3717.0	2565.0	1152.0	663.0	6.0	657.0		4.0	4.0		10.0		1.0	1.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2002	54148.0	11393.0	11391.0	7220.0	3983.0	3213.0	24.0	3471.0	2192.0	1279.0	700.0	14.0	686.0		2.0	2.0		11.0			1.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2003	47577.0	9554.0	9551.0	5669.0	2480.0	3173.0	16.0	3114.0	2216.0	898.0	768.0	43.0	725.0	1.0	2.0	2.0		11.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2004	42340.0	8542.0	8540.0	4972.0	2494.0	2478.0		2837.0	1980.0	857.0	731.0	48.0	683.0		2.0			5.0			2.0	山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2005	39000.0	8022.0	8018.0	4674.0	2112.0	2551.0	11.0	2726.0	1818.0	908.0	618.0	140.0	478.0	2.0	1.0		1.0	8.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2006	39781.0	7745.0	7740.0	4411.0	1874.0	2532.0	5.0	2686.0	1986.0	700.0	643.0	144.0	499.0		2.0		3.0	8.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2007	42010.0	7940.0	7939.0	4555.0	1915.0	2640.0		2645.0	2048.0	597.0	739.0	172.0	567.0				1.0	3.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2008	33050.0	8134.0	8132.0	4620.0	2070.0	2548.0	2.0	2756.0	2197.0	559.0	756.0	121.0	635.0		1.0		1.0	6.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0
+2009	30987.0	7898.0	7897.0	4607.0	2227.0	2380.0		2565.0	2055.0	510.0	725.0	153.0	572.0		1.0	1.0		25.0				山口	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117979&fileKind=0

@@ -1,0 +1,26 @@
+year	pig	cattle	adult_cattle	wagyu	wagyu_heifer	wagyu_steer	wagyu_bull	dairy_cattle	dairy_cow	dairy_fattening_bull	other	other_cow	other_bull	calf_wagyu	calf_dairy	calf_dairy_fattening_bull	calf_other	horse	foal	sheep	goat	prefecture	source_url
+1985	548235.0		23725.0	10540.0	6664.0	3835.0	41.0	13182.0	7741.0	5441.0	3.0	1.0	2.0	14.0	237.0	83.0		3.0		187.0	30.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1986	551615.0		22963.0	8971.0	5065.0	3883.0	23.0	13990.0	8186.0	5804.0	2.0	1.0	1.0	8.0	190.0	26.0		2.0		168.0	29.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1987	551573.0		23935.0	8935.0	5411.0	3496.0	28.0	14967.0	8841.0	6126.0	33.0	5.0	28.0	10.0	124.0	42.0	2.0	3.0		97.0	22.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1988	552817.0		17590.0	5789.0	3484.0	2291.0	14.0	11798.0	5781.0	6017.0	3.0	2.0	1.0	9.0	134.0	43.0		6.0		113.0	12.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1989	562873.0		19168.0	6922.0	4130.0	2775.0	17.0	12240.0	6507.0	5733.0	6.0	2.0	4.0	9.0	122.0	27.0		5.0	1.0	108.0	11.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1990	542292.0		18891.0	6794.0	4084.0	2694.0	16.0	12075.0	7050.0	5025.0	22.0		22.0	10.0	120.0	35.0		3.0		102.0	5.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1991	508602.0		19852.0	7019.0	4323.0	2677.0	19.0	12829.0	7664.0	5165.0	4.0	2.0	2.0	7.0	140.0	16.0		3.0		84.0	4.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1992	485630.0		19269.0	6551.0	4043.0	2460.0	48.0	12717.0	7843.0	4874.0	1.0	1.0		7.0	114.0	12.0		8.0		75.0	12.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1993	476414.0		18149.0	6313.0	3936.0	2346.0	31.0	11819.0	7516.0	4303.0	17.0	12.0	5.0	15.0	74.0	21.0		7.0		85.0	13.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1994	457870.0		17732.0	6454.0	4128.0	2300.0	26.0	11263.0	7512.0	3751.0	15.0	8.0	7.0	7.0	93.0	23.0		7.0	3.0	84.0	7.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1995	418817.0	16810.0	16692.0	6171.0	3877.0	2282.0	12.0	10521.0	7224.0	3297.0				14.0	104.0	17.0		8.0		56.0	4.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1996	388956.0	15107.0	15036.0	5851.0	3549.0	2279.0	23.0	9185.0	6414.0	2771.0				6.0	65.0	10.0		2.0		56.0	6.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1997	389988.0	14035.0	13970.0	5198.0	3096.0	2095.0	7.0	8772.0	6010.0	2762.0				7.0	36.0	19.0	22.0	3.0	1.0	56.0	10.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1998	382218.0	14802.0	14758.0	5497.0	3080.0	2408.0	9.0	9261.0	6085.0	3176.0				1.0	23.0	17.0	20.0	3.0		71.0	2.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+1999	377038.0	15114.0	15056.0	5687.0	3157.0	2516.0	14.0	9369.0	5940.0	3429.0				5.0	53.0	49.0		1.0		53.0	3.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2000	373605.0	14127.0	14084.0	5570.0	3150.0	2398.0	22.0	8514.0	5475.0	3039.0				14.0	29.0	21.0		3.0		15.0	2.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2001	354503.0	11958.0	11907.0	4593.0	2188.0	2334.0	71.0	7314.0	4718.0	2596.0				7.0	43.0	9.0	1.0	3.0		5.0	2.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2002	386999.0	12073.0	12047.0	3339.0	1502.0	1802.0	35.0	8708.0	4798.0	3910.0				2.0	24.0	16.0				28.0	2.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2003	392286.0	11800.0	11569.0	2706.0	1148.0	1540.0	18.0	8862.0	4608.0	4254.0	1.0		1.0	1.0	230.0	150.0		3.0		11.0	1.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2004	400349.0	11968.0	11599.0	2413.0	1003.0	1405.0	5.0	9186.0	4710.0	4476.0				3.0	366.0	340.0		2.0		10.0		新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2005	398328.0	9829.0	9558.0	2304.0	955.0	1339.0	10.0	7254.0	3990.0	3264.0					271.0	261.0				17.0		新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2006	393945.0	8781.0	8714.0	1944.0	789.0	1154.0	1.0	6769.0	4113.0	2656.0	1.0		1.0		67.0	62.0				4.0	1.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2007	395238.0	8473.0	8349.0	1866.0	728.0	1137.0	1.0	6483.0	3908.0	2575.0					124.0	108.0		2.0			1.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2008	392451.0	8308.0	8077.0	1866.0	676.0	1184.0	6.0	6208.0	3686.0	2522.0	3.0	3.0		2.0	229.0	171.0		1.0		2.0	4.0	新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0
+2009	392624.0	7507.0	7363.0	2032.0	655.0	1373.0	4.0	5331.0	3279.0	2052.0				1.0	143.0	133.0		4.0		6.0		新潟	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117959&fileKind=0

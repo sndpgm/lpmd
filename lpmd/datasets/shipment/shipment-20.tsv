@@ -1,0 +1,26 @@
+year	pig	cattle	adult_cattle	wagyu	wagyu_heifer	wagyu_steer	wagyu_bull	dairy_cattle	dairy_cow	dairy_fattening_bull	other	other_cow	other_bull	calf_wagyu	calf_dairy	calf_dairy_fattening_bull	calf_other	horse	foal	sheep	goat	prefecture	source_url
+1985	124452.0		7864.0	3163.0	657.0	2497.0	9.0	4345.0	2299.0	2046.0	356.0	168.0	188.0	13.0	40.0	4.0		1140.0			1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1986	125867.0		7470.0	2979.0	748.0	2205.0	26.0	4331.0	2305.0	2026.0	160.0	84.0	76.0	15.0	33.0	17.0		1040.0		5.0		山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1987	116665.0		6954.0	2578.0	669.0	1891.0	18.0	4152.0	2038.0	2114.0	224.0	95.0	129.0	5.0	37.0	13.0	1.0	876.0		14.0	2.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1988	117720.0		5938.0	2347.0	613.0	1718.0	16.0	3362.0	1443.0	1919.0	229.0	110.0	119.0	2.0	51.0	31.0	1.0	676.0		18.0	2.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1989	113725.0		6079.0	2679.0	639.0	2034.0	6.0	3371.0	1439.0	1932.0	29.0	8.0	21.0	6.0	26.0	12.0	1.0	636.0		21.0	1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1990	94840.0		6152.0	3001.0	668.0	2331.0	2.0	3129.0	1325.0	1804.0	22.0	10.0	12.0	5.0	22.0	11.0		671.0		15.0	1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1991	81281.0		6010.0	2859.0	748.0	2106.0	5.0	3100.0	1226.0	1874.0	51.0	11.0	40.0	2.0	30.0	13.0		688.0		11.0	1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1992	76727.0		5981.0	2718.0	611.0	2102.0	5.0	3209.0	1415.0	1794.0	54.0	10.0	44.0	3.0	30.0	23.0		666.0		21.0	3.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1993	77376.0		5924.0	3102.0	702.0	2395.0	5.0	2803.0	1427.0	1376.0	19.0	14.0	5.0	2.0	32.0	14.0		727.0		2.0	3.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1994	75080.0		5577.0	3238.0	734.0	2502.0	2.0	2339.0	1381.0	958.0				4.0	20.0	10.0		663.0		9.0		山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1995	51564.0	5570.0	5542.0	3096.0	927.0	2161.0	8.0	2446.0	1245.0	1201.0				3.0	25.0	16.0		665.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1996	50787.0	4668.0	4658.0	2620.0	816.0	1801.0	3.0	2035.0	1168.0	867.0	3.0	3.0			10.0	4.0		546.0	1.0	23.0	1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1997	48834.0	4504.0	4491.0	2259.0	624.0	1627.0	8.0	2230.0	1371.0	859.0	2.0	2.0			13.0	3.0		617.0		8.0	1.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1998	46450.0	4536.0	4523.0	2200.0	690.0	1510.0		2297.0	1350.0	947.0	26.0		26.0	2.0	11.0	1.0		647.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+1999	46050.0	4808.0	4797.0	2242.0	833.0	1395.0	14.0	2537.0	1488.0	1049.0	18.0	9.0	9.0	4.0	7.0	7.0		639.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2000	44984.0	4805.0	4778.0	2630.0	1342.0	1279.0	9.0	2148.0	1194.0	954.0				2.0	23.0	4.0	2.0	618.0		1.0		山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2001	39020.0	3570.0	3566.0	2148.0	1003.0	1142.0	3.0	1418.0	1015.0	403.0					3.0	2.0	1.0	520.0		6.0		山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2002	39433.0	4049.0	4049.0	1500.0	596.0	902.0	2.0	2549.0	1647.0	902.0								527.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2003	38141.0	4259.0	4254.0	1410.0	281.0	1127.0	2.0	2834.0	1789.0	1045.0	10.0	10.0			5.0	5.0		586.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2004	43360.0	4096.0	4091.0	1209.0	283.0	924.0	2.0	2882.0	2077.0	805.0					5.0	4.0		551.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2005	39011.0	4211.0	4203.0	1256.0	270.0	985.0	1.0	2946.0	2209.0	737.0	1.0	1.0			8.0	8.0		463.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2006	38878.0	4026.0	4023.0	1224.0	337.0	887.0		2790.0	2267.0	523.0	9.0	9.0			3.0	3.0		464.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2007	37644.0	4278.0	4273.0	1274.0	247.0	1027.0		2998.0	2554.0	444.0	1.0	1.0			5.0	4.0		421.0				山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2008	33915.0	4241.0	4206.0	1175.0	202.0	972.0	1.0	3031.0	2459.0	572.0					35.0	23.0		425.0		7.0		山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0
+2009	35204.0	3884.0	3836.0	1160.0	250.0	910.0		2676.0	2081.0	595.0				2.0	46.0	40.0		378.0		6.0	4.0	山梨	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117963&fileKind=0

@@ -1,0 +1,26 @@
+year	pig	cattle	adult_cattle	wagyu	wagyu_heifer	wagyu_steer	wagyu_bull	dairy_cattle	dairy_cow	dairy_fattening_bull	other	other_cow	other_bull	calf_wagyu	calf_dairy	calf_dairy_fattening_bull	calf_other	horse	foal	sheep	goat	prefecture	source_url
+1985	156863.0		20372.0	8587.0	5970.0	2552.0	65.0	11785.0	5815.0	5970.0				18.0	691.0	20.0		79.0		21.0	5.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1986	155104.0		19530.0	8252.0	5684.0	2504.0	64.0	11278.0	6263.0	5015.0				48.0	399.0	9.0		123.0	2.0	26.0	15.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1987	151765.0		19100.0	7867.0	5719.0	2119.0	29.0	11233.0	6455.0	4778.0				21.0	189.0	19.0		97.0		23.0	15.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1988	149449.0		17931.0	6621.0	4852.0	1752.0	17.0	11310.0	6595.0	4715.0				37.0	189.0	17.0	2.0	96.0		14.0	18.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1989	149265.0		17590.0	5807.0	4378.0	1400.0	29.0	11783.0	7264.0	4519.0				26.0	105.0	34.0		98.0		28.0	12.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1990	142940.0		17513.0	5898.0	4423.0	1462.0	13.0	11615.0	6667.0	4948.0				25.0	68.0	15.0		91.0		13.0	5.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1991	133907.0		17105.0	5476.0	3792.0	1663.0	21.0	11629.0	6563.0	5066.0				26.0	107.0	9.0		82.0		8.0	6.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1992	122296.0		17904.0	5317.0	3722.0	1576.0	19.0	12587.0	7686.0	4901.0				25.0	165.0	18.0		98.0	1.0	4.0	3.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1993	119959.0		17912.0	5684.0	3963.0	1702.0	19.0	12228.0	7021.0	5207.0				24.0	104.0	3.0		71.0		14.0	4.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1994	114647.0		16587.0	5478.0	3765.0	1686.0	27.0	11109.0	6534.0	4575.0				18.0	90.0	20.0		74.0		16.0	10.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1995	112914.0	16130.0	16066.0	5255.0	3415.0	1802.0	38.0	10811.0	6416.0	4395.0				5.0	59.0	11.0		40.0		12.0	1.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1996	110926.0	16352.0	16300.0	5231.0	3236.0	1967.0	28.0	11069.0	6435.0	4634.0				5.0	47.0	4.0		30.0		9.0	2.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1997	116803.0	16021.0	15984.0	4825.0	2750.0	2035.0	40.0	11159.0	6123.0	5036.0				5.0	32.0			35.0		4.0	1.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1998	109555.0	15550.0	15482.0	4525.0	2418.0	2096.0	11.0	10957.0	6882.0	4075.0				1.0	67.0	5.0		33.0	1.0	6.0	4.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+1999	113880.0	15674.0	15608.0	4617.0	2444.0	2167.0	6.0	10991.0	6756.0	4235.0				5.0	61.0	5.0		39.0		3.0	17.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2000	108900.0	15435.0	15401.0	4452.0	2287.0	2155.0	10.0	10896.0	6166.0	4730.0	53.0		53.0	7.0	27.0	4.0		27.0		4.0	11.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2001	103251.0	12559.0	12540.0	3896.0	1906.0	1974.0	16.0	8644.0	4760.0	3884.0				6.0	13.0	1.0		7.0		6.0		広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2002	102148.0	14667.0	14658.0	4725.0	2425.0	2297.0	3.0	9933.0	4983.0	4950.0				2.0	7.0			13.0			4.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2003	105409.0	15022.0	15009.0	4245.0	2108.0	2134.0	3.0	10764.0	5634.0	5130.0				2.0	10.0	6.0	1.0	23.0			2.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2004	105928.0	15164.0	15134.0	4200.0	2244.0	1951.0	5.0	10884.0	5035.0	5849.0	50.0		50.0	1.0	29.0	11.0		21.0			5.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2005	103210.0	15304.0	15269.0	3962.0	1923.0	2038.0	1.0	11278.0	5249.0	6029.0	29.0		29.0	3.0	32.0	26.0		27.0		3.0	7.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2006	103983.0	14584.0	14546.0	3579.0	1642.0	1931.0	6.0	10945.0	5416.0	5529.0	22.0	5.0	17.0		38.0	32.0		25.0			15.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2007	105013.0	14335.0	14290.0	3408.0	1500.0	1900.0	8.0	10802.0	5030.0	5772.0	80.0	15.0	65.0	6.0	39.0	28.0		17.0			8.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2008	102730.0	14575.0	14507.0	3601.0	1527.0	2067.0	7.0	10883.0	5231.0	5652.0	23.0	4.0	19.0	7.0	61.0	6.0		19.0		4.0	12.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
+2009	103190.0	14910.0	14868.0	4011.0	1727.0	2274.0	10.0	10843.0	5082.0	5761.0	14.0	9.0	5.0	7.0	35.0	3.0		13.0		9.0	7.0	広島	https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117978&fileKind=0
