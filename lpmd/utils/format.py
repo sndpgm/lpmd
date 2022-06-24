@@ -1,45 +1,50 @@
+"""lpmd.utils.format."""
 import re
 
 import pandas as pd
-
 
 LIST_NULL = ["…", "-", "x"]
 
 
 def format_raw_year(series):
-    """「年次」カラムを整数型の年に変換する.
+    """Format the series for "年次" column into integer one.
 
     Parameters
     ----------
     series : pandas.core.series.Series
-        「年次」カラム series.
+        "年次" column series.
 
     Returns
     -------
     series_formatted : pandas.core.series.Series
-        整数型の年に変換した series.
+        Formatted column series.
 
     """
     if not isinstance(series, pd.Series):
         msg = "Specified series must be `pandas.core.series.Series`."
         raise TypeError(msg)
-    series_formatted = series.str.replace("（", "(").str.replace("）", ")").\
-        replace(re.compile(r".*\("), "", regex=True).replace(re.compile(r"\)"), "", regex=True).astype(int)
+    series_formatted = (
+        series.str.replace("（", "(")
+        .str.replace("）", ")")
+        .replace(re.compile(r".*\("), "", regex=True)
+        .replace(re.compile(r"\)"), "", regex=True)
+        .astype(int)
+    )
     return series_formatted
 
 
 def format_raw_qty(series):
-    """数量に関するカラムについてデータとして扱いやすい形式に変換する.
+    """Format the series on quantities into float one.
 
     Parameters
     ----------
     series : pandas.core.series.Series
-        数量カラム series.
+        Series on quantities.
 
     Returns
     -------
     series_formatted : pandas.core.series.Series
-        変換した series.
+        Formatted column series.
 
     """
     if not isinstance(series, pd.Series):
