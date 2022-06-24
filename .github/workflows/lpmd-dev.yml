@@ -9,6 +9,7 @@ jobs:
       matrix:
         os: [macos-12, macos-latest, macos-10.15]
         python-version: ["3.9"]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -20,7 +21,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install dependecies
-        runs: |
+        run: |
           pip install -r requirements.txt
           pip install -r requirements-devtools.txt
 
