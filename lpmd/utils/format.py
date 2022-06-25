@@ -6,7 +6,7 @@ import pandas as pd
 LIST_NULL = ["…", "-", "x"]
 
 
-def format_raw_year(series):
+def format_raw_str_year(series):
     """Format the series for "年次" column into integer one.
 
     Parameters

@@ -85,16 +85,16 @@ exp_qty_series = pd.Series([np.nan, np.nan, np.nan, 35660, 35080, 33755, 32540])
 class TestFormat:
     """pytest for lpmd.utils.format."""
 
-    def test_format_raw_year(self):
+    def test_format_raw_str_year(self):
         """Unit test for format_raw_year."""
-        tgt_year_series = fmt.format_raw_year(test_year_series)
+        tgt_year_series = fmt.format_raw_str_year(test_year_series)
         pd.testing.assert_series_equal(tgt_year_series, exp_year_series)
 
     def test_raise_format_raw_year(self):
         """Raise test for format_raw_year."""
         msg = "Specified series must be `pandas.core.series.Series`."
         with pytest.raises(TypeError, match=msg):
-            fmt.format_raw_year(test_year_list)
+            fmt.format_raw_str_year(test_year_list)
 
     def test_format_raw_qty(self):
         """Unit test for format_raw_qty."""
