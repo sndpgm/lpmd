@@ -143,104 +143,406 @@ shipment:
     46.Kagoshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117990&fileKind=0"
     47.Okinawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117991&fileKind=0"
 
-2.と畜頭数及びと畜場数累年統計:
-  00.All: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117992&fileKind=0"
-  01.Hokkaido: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117993&fileKind=0"
-  02.Aomori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117994&fileKind=0"
-  03.Iwate: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117995&fileKind=0"
-  04.Miyagi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117996&fileKind=0"
-  05.Akita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117997&fileKind=0"
-  06.Yamagata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117998&fileKind=0"
-  07.Fukushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117999&fileKind=0"
-  08.Ibaraki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118000&fileKind=0"
-  09.Tochigi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118001&fileKind=0"
-  10.Gunma: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118002&fileKind=0"
-  11.Saitama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118003&fileKind=0"
-  12.Chiba: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118004&fileKind=0"
-  13.Tokyo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118005&fileKind=0"
-  14.Kanagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118006&fileKind=0"
-  15.Niigata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118007&fileKind=0"
-  16.Toyama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118008&fileKind=0"
-  17.Ishikawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118009&fileKind=0"
-  18.Fukui: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118010&fileKind=0"
-  19.Yamanashi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118011&fileKind=0"
-  20.Nagano: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118012&fileKind=0"
-  21.Gifu: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118013&fileKind=0"
-  22.Shizuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118014&fileKind=0"
-  23.Aichi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118015&fileKind=0"
-  24.Mie: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118016&fileKind=0"
-  25.Shiga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118017&fileKind=0"
-  26.Kyoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118018&fileKind=0"
-  27.Osaka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118019&fileKind=0"
-  28.Hyogo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118020&fileKind=0"
-  29.Nara: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118021&fileKind=0"
-  30.Wakayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118022&fileKind=0"
-  31.Tottori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118023&fileKind=0"
-  32.Shimane: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118024&fileKind=0"
-  33.Okayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118025&fileKind=0"
-  34.Hiroshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118026&fileKind=0"
-  35.Yamaguchi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118027&fileKind=0"
-  36.Tokushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118028&fileKind=0"
-  37.Kagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118029&fileKind=0"
-  38.Ehime: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118030&fileKind=0"
-  39.Kochi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118031&fileKind=0"
-  40.Fukuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118032&fileKind=0"
-  41.Saga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118033&fileKind=0"
-  42.Nagasaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118034&fileKind=0"
-  43.Kumamoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118035&fileKind=0"
-  44.Oita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118036&fileKind=0"
-  45.Miyazaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118037&fileKind=0"
-  46.Kagoshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118038&fileKind=0"
-  47.Okinawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118039&fileKind=0"
-3.枝肉生産量累年統計:
-  00.All: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118040&fileKind=0"
-  01.Hokkaido: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118041&fileKind=0"
-  02.Aomori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118042&fileKind=0"
-  03.Iwate: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118043&fileKind=0"
-  04.Miyagi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118044&fileKind=0"
-  05.Akita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118045&fileKind=0"
-  06.Yamagata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118046&fileKind=0"
-  07.Fukushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118047&fileKind=0"
-  08.Ibaraki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118048&fileKind=0"
-  09.Tochigi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118049&fileKind=0"
-  10.Gunma: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118050&fileKind=0"
-  11.Saitama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118051&fileKind=0"
-  12.Chiba: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118052&fileKind=0"
-  13.Tokyo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118053&fileKind=0"
-  14.Kanagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118054&fileKind=0"
-  15.Niigata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118055&fileKind=0"
-  16.Toyama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118056&fileKind=0"
-  17.Ishikawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118057&fileKind=0"
-  18.Fukui: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118058&fileKind=0"
-  19.Yamanashi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118059&fileKind=0"
-  20.Nagano: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118060&fileKind=0"
-  21.Gifu: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118061&fileKind=0"
-  22.Shizuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118062&fileKind=0"
-  23.Aichi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118063&fileKind=0"
-  24.Mie: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118064&fileKind=0"
-  25.Shiga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118065&fileKind=0"
-  26.Kyoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118066&fileKind=0"
-  27.Osaka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118067&fileKind=0"
-  28.Hyogo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118068&fileKind=0"
-  29.Nara: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118069&fileKind=0"
-  30.Wakayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118070&fileKind=0"
-  31.Tottori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118071&fileKind=0"
-  32.Shimane: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118072&fileKind=0"
-  33.Okayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118073&fileKind=0"
-  34.Hiroshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118074&fileKind=0"
-  35.Yamaguchi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118075&fileKind=0"
-  36.Tokushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118076&fileKind=0"
-  37.Kagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118077&fileKind=0"
-  38.Ehime: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118078&fileKind=0"
-  39.Kochi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118079&fileKind=0"
-  40.Fukuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118080&fileKind=0"
-  41.Saga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118081&fileKind=0"
-  42.Nagasaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118082&fileKind=0"
-  43.Kumamoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118083&fileKind=0"
-  44.Oita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118084&fileKind=0"
-  45.Miyazaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118085&fileKind=0"
-  46.Kagoshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118086&fileKind=0"
-  47.Okinawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118087&fileKind=0"
+slaughter:
+
+  name: "と畜頭数及びと畜場数累年統計"
+
+  columns:
+    year:
+      name: "年次"
+      dtype: int
+      column_type: "str_year"
+    pig:
+      name: "豚(頭数)"
+      dtype: float
+      column_type: "qty"
+    cattle:
+      name: "牛計(頭数)"
+      dtype: float
+      column_type: "qty"
+    adult_cattle:
+      name: "成牛計(頭数)"
+      dtype: float
+      column_type: "qty"
+    wagyu:
+      name: "成牛・和牛小計(頭数)"
+      dtype: float
+      column_type: "qty"
+    wagyu_heifer:
+      name: "成牛・めす和牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    wagyu_steer:
+      name: "成牛・去勢和牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    wagyu_bull:
+      name: "成牛・おす和牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_cattle_including_f1:
+      name: "成牛・乳牛小計(交雑含む, 頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_cow_including_f1:
+      name: "成牛・乳用めす牛(交雑含む, 頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_fattening_bull_including_f1:
+      name: "成牛・乳用肥育おす牛(交雑・去勢含む, 頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_cattle:
+      name: "成牛・乳牛小計(頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_cow:
+      name: "成牛・乳用めす牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_steer:
+      name: "成牛・乳用去勢牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    dairy_bull:
+      name: "成牛・乳用おす牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    f1_cattle:
+      name: "成牛・交雑牛小計(頭数)"
+      dtype: float
+      column_type: "qty"
+    f1_cow:
+      name: "成牛・交雑めす牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    f1_bull_including_steer:
+      name: "成牛・交雑おす牛(去勢含む, 頭数)"
+      dtype: float
+      column_type: "qty"
+    f1_steer:
+      name: "成牛・交雑去勢牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    f1_bull:
+      name: "成牛・交雑おす牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    other:
+      name: "成牛・その他の牛小計(頭数)"
+      dtype: float
+      column_type: "qty"
+    other_cow:
+      name: "成牛・その他の牛めす(頭数)"
+      dtype: float
+      column_type: "qty"
+    other_bull_including_steer:
+      name: "成牛・その他の牛おす(去勢含む, 頭数)"
+      dtype: float
+      column_type: "qty"
+    other_steer:
+      name: "成牛・その他の牛去勢(頭数)"
+      dtype: float
+      column_type: "qty"
+    other_bull:
+      name: "成牛・その他の牛おす(頭数)"
+      dtype: float
+      column_type: "qty"
+    calf:
+      name: "子牛・計(頭数)"
+      dtype: float
+      column_type: "qty"
+    calf_wagyu:
+      name: "子牛・和子牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    calf_dairy:
+      name: "子牛・乳子牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    calf_dairy_fattening_bull:
+      name: "子牛・乳肥育おす牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    calf_other:
+      name: "子牛・その他の子牛(頭数)"
+      dtype: float
+      column_type: "qty"
+    horse_and_foal:
+      name: "馬・計(頭数)"
+      dtype: float
+      column_type: "qty"
+    horse:
+      name: "馬・成馬(頭数)"
+      dtype: float
+      column_type: "qty"
+    foal:
+      name: "馬・子馬(頭数)"
+      dtype: float
+      column_type: "qty"
+    sheep:
+      name: "めん羊(頭数)"
+      dtype: float
+      column_type: "qty"
+    goat:
+      name: "やぎ(頭数)"
+      dtype: float
+      column_type: "qty"
+    abattoir:
+      name: "屠畜場数(場数)"
+      dtype: float
+      column_type: "qty"
+
+  partition:
+    00.All: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117992&fileKind=0"
+    01.Hokkaido: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117993&fileKind=0"
+    02.Aomori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117994&fileKind=0"
+    03.Iwate: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117995&fileKind=0"
+    04.Miyagi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117996&fileKind=0"
+    05.Akita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117997&fileKind=0"
+    06.Yamagata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117998&fileKind=0"
+    07.Fukushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117999&fileKind=0"
+    08.Ibaraki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118000&fileKind=0"
+    09.Tochigi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118001&fileKind=0"
+    10.Gunma: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118002&fileKind=0"
+    11.Saitama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118003&fileKind=0"
+    12.Chiba: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118004&fileKind=0"
+    13.Tokyo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118005&fileKind=0"
+    14.Kanagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118006&fileKind=0"
+    15.Niigata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118007&fileKind=0"
+    16.Toyama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118008&fileKind=0"
+    17.Ishikawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118009&fileKind=0"
+    18.Fukui: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118010&fileKind=0"
+    19.Yamanashi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118011&fileKind=0"
+    20.Nagano: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118012&fileKind=0"
+    21.Gifu: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118013&fileKind=0"
+    22.Shizuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118014&fileKind=0"
+    23.Aichi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118015&fileKind=0"
+    24.Mie: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118016&fileKind=0"
+    25.Shiga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118017&fileKind=0"
+    26.Kyoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118018&fileKind=0"
+    27.Osaka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118019&fileKind=0"
+    28.Hyogo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118020&fileKind=0"
+    29.Nara: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118021&fileKind=0"
+    30.Wakayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118022&fileKind=0"
+    31.Tottori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118023&fileKind=0"
+    32.Shimane: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118024&fileKind=0"
+    33.Okayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118025&fileKind=0"
+    34.Hiroshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118026&fileKind=0"
+    35.Yamaguchi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118027&fileKind=0"
+    36.Tokushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118028&fileKind=0"
+    37.Kagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118029&fileKind=0"
+    38.Ehime: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118030&fileKind=0"
+    39.Kochi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118031&fileKind=0"
+    40.Fukuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118032&fileKind=0"
+    41.Saga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118033&fileKind=0"
+    42.Nagasaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118034&fileKind=0"
+    43.Kumamoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118035&fileKind=0"
+    44.Oita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118036&fileKind=0"
+    45.Miyazaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118037&fileKind=0"
+    46.Kagoshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118038&fileKind=0"
+    47.Okinawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118039&fileKind=0"
+
+carcass:
+
+  name: "枝肉生産量累年統計"
+
+  columns:
+    year:
+      name: "年次"
+      dtype: int
+      column_type: "str_year"
+    pig:
+      name: "豚(t)"
+      dtype: float
+      column_type: "qty"
+    cattle:
+      name: "牛計(t)"
+      dtype: float
+      column_type: "qty"
+    adult_cattle:
+      name: "成牛計(t)"
+      dtype: float
+      column_type: "qty"
+    wagyu:
+      name: "成牛・和牛小計(t)"
+      dtype: float
+      column_type: "qty"
+    wagyu_heifer:
+      name: "成牛・めす和牛(t)"
+      dtype: float
+      column_type: "qty"
+    wagyu_steer:
+      name: "成牛・去勢和牛(t)"
+      dtype: float
+      column_type: "qty"
+    wagyu_bull:
+      name: "成牛・おす和牛(t)"
+      dtype: float
+      column_type: "qty"
+    dairy_cattle_including_f1:
+      name: "成牛・乳牛小計(交雑含む, t)"
+      dtype: float
+      column_type: "qty"
+    dairy_cow_including_f1:
+      name: "成牛・乳用めす牛(交雑含む, t)"
+      dtype: float
+      column_type: "qty"
+    dairy_fattening_bull_including_f1:
+      name: "成牛・乳用去勢牛(交雑・去勢含む, t)"
+      dtype: float
+      column_type: "qty"
+    dairy_cattle:
+      name: "成牛・乳牛小計(t)"
+      dtype: float
+      column_type: "qty"
+    dairy_cow:
+      name: "成牛・乳用めす牛(t)"
+      dtype: float
+      column_type: "qty"
+    dairy_steer:
+      name: "成牛・乳用去勢牛(t)"
+      dtype: float
+      column_type: "qty"
+    dairy_bull:
+      name: "成牛・乳用おす牛(t)"
+      dtype: float
+      column_type: "qty"
+    f1_cattle:
+      name: "成牛・交雑牛小計(t)"
+      dtype: float
+      column_type: "qty"
+    f1_cow:
+      name: "成牛・交雑めす牛(t)"
+      dtype: float
+      column_type: "qty"
+    f1_bull_including_steer:
+      name: "成牛・交雑おす牛(去勢含む, t)"
+      dtype: float
+      column_type: "qty"
+    f1_steer:
+      name: "成牛・交雑去勢牛(t)"
+      dtype: float
+      column_type: "qty"
+    f1_bull:
+      name: "成牛・交雑おす牛(t)"
+      dtype: float
+      column_type: "qty"
+    other:
+      name: "成牛・その他の牛小計(t)"
+      dtype: float
+      column_type: "qty"
+    other_cow:
+      name: "成牛・その他の牛めす(t)"
+      dtype: float
+      column_type: "qty"
+    other_bull_including_steer:
+      name: "成牛・その他の牛おす(去勢含む, t)"
+      dtype: float
+      column_type: "qty"
+    other_steer:
+      name: "成牛・その他の牛去勢(t)"
+      dtype: float
+      column_type: "qty"
+    other_bull:
+      name: "成牛・その他の牛おす(t)"
+      dtype: float
+      column_type: "qty"
+    calf:
+      name: "子牛・計(t)"
+      dtype: float
+      column_type: "qty"
+    calf_wagyu:
+      name: "子牛・和子牛(t)"
+      dtype: float
+      column_type: "qty"
+    calf_dairy:
+      name: "子牛・乳子牛(t)"
+      dtype: float
+      column_type: "qty"
+    calf_dairy_fattening_bull:
+      name: "子牛・乳肥育おす牛(t)"
+      dtype: float
+      column_type: "qty"
+    calf_other:
+      name: "子牛・その他の子牛(t)"
+      dtype: float
+      column_type: "qty"
+    horse_and_foal:
+      name: "馬・計(t)"
+      dtype: float
+      column_type: "qty"
+    horse:
+      name: "馬・成馬(t)"
+      dtype: float
+      column_type: "qty"
+    foal:
+      name: "馬・子馬(t)"
+      dtype: float
+      column_type: "qty"
+    sheep:
+      name: "めん羊(t)"
+      dtype: float
+      column_type: "qty"
+    goat:
+      name: "やぎ(t)"
+      dtype: float
+      column_type: "qty"
+    carcass:
+      name: "枝肉計(t)"
+      dtype: float
+      column_type: "qty"
+
+  partition:
+    00.All: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118040&fileKind=0"
+    01.Hokkaido: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118041&fileKind=0"
+    02.Aomori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118042&fileKind=0"
+    03.Iwate: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118043&fileKind=0"
+    04.Miyagi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118044&fileKind=0"
+    05.Akita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118045&fileKind=0"
+    06.Yamagata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118046&fileKind=0"
+    07.Fukushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118047&fileKind=0"
+    08.Ibaraki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118048&fileKind=0"
+    09.Tochigi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118049&fileKind=0"
+    10.Gunma: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118050&fileKind=0"
+    11.Saitama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118051&fileKind=0"
+    12.Chiba: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118052&fileKind=0"
+    13.Tokyo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118053&fileKind=0"
+    14.Kanagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118054&fileKind=0"
+    15.Niigata: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118055&fileKind=0"
+    16.Toyama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118056&fileKind=0"
+    17.Ishikawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118057&fileKind=0"
+    18.Fukui: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118058&fileKind=0"
+    19.Yamanashi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118059&fileKind=0"
+    20.Nagano: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118060&fileKind=0"
+    21.Gifu: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118061&fileKind=0"
+    22.Shizuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118062&fileKind=0"
+    23.Aichi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118063&fileKind=0"
+    24.Mie: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118064&fileKind=0"
+    25.Shiga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118065&fileKind=0"
+    26.Kyoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118066&fileKind=0"
+    27.Osaka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118067&fileKind=0"
+    28.Hyogo: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118068&fileKind=0"
+    29.Nara: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118069&fileKind=0"
+    30.Wakayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118070&fileKind=0"
+    31.Tottori: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118071&fileKind=0"
+    32.Shimane: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118072&fileKind=0"
+    33.Okayama: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118073&fileKind=0"
+    34.Hiroshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118074&fileKind=0"
+    35.Yamaguchi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118075&fileKind=0"
+    36.Tokushima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118076&fileKind=0"
+    37.Kagawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118077&fileKind=0"
+    38.Ehime: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118078&fileKind=0"
+    39.Kochi: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118079&fileKind=0"
+    40.Fukuoka: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118080&fileKind=0"
+    41.Saga: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118081&fileKind=0"
+    42.Nagasaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118082&fileKind=0"
+    43.Kumamoto: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118083&fileKind=0"
+    44.Oita: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118084&fileKind=0"
+    45.Miyazaki: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118085&fileKind=0"
+    46.Kagoshima: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118086&fileKind=0"
+    47.Okinawa: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118087&fileKind=0"
+
 4.食肉中央卸売市場取引成立頭数と価格累年統計:
   豚: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118088&fileKind=0"
   成牛計: "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118089&fileKind=0"

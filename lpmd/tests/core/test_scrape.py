@@ -8,7 +8,12 @@ import pandas as pd
 import pytest
 import yaml
 
-from lpmd.core.scrape import BaseScraper, ScraperShipment
+from lpmd.core.scrape import (
+    BaseScraper,
+    ScraperCarcass,
+    ScraperShipment,
+    ScraperSlaughter,
+)
 
 # -------------------------
 # BaseScraper pytest
@@ -161,6 +166,104 @@ class TestScraperShipment:
     def test_aggregate(self, setup):
         df = self.scraper.aggregate()
         assert len(df) > 0
+
+    def test_out_to_datasets(self, setup):
+        original_datasets_path = self.scraper.datasets_path
+        self.scraper.datasets_path = "lpmd/tests/core/.tmp/{data_id}/".format(
+            data_id=self.scraper.data_id
+        )
+        file = "{data_id}.parquet.zstd".format(data_id=self.scraper.data_id)
+
+        # 保存先パス文字列のテスト.
+        exp_file_path = os.path.join(self.scraper.datasets_path, file)
+        tgt_file_path = self.scraper.out_to_datasets()
+        assert tgt_file_path == exp_file_path
+
+        # 実際にファイルが保存されているか確認.
+        assert os.path.exists(tgt_file_path)
+
+        # cleanup
+        shutil.rmtree("lpmd/tests/core/.tmp/")
+        self.scraper.datasets_path = original_datasets_path
+
+
+# -------------------------
+# ScraperSlaughter pytest
+# -------------------------
+
+test_slaughter_data_id = "slaughter"
+test_slaughter_partition_id = "00.All"
+test_slaughter_url = "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032117992&fileKind=0"
+test_slaughter_error_url = "http://xxxxxx/dummy/test/xxxxxx.jp"
+
+
+class TestScraperSlaughter:
+    @pytest.fixture()
+    def setup(self):
+        self.scraper = ScraperSlaughter()
+
+    def test_get_scraped_data(self, setup):
+        df = self.scraper.get_scraped_data(partition_id=test_slaughter_partition_id)
+        assert len(df) > 0
+
+        self.scraper.data_catalogue["partition"][
+            test_slaughter_partition_id
+        ] = test_slaughter_error_url
+        df = self.scraper.get_scraped_data(partition_id=test_slaughter_partition_id)
+        assert df is None
+
+        self.scraper.data_catalogue["partition"][
+            test_slaughter_partition_id
+        ] = test_slaughter_url
+
+    def test_out_to_datasets(self, setup):
+        original_datasets_path = self.scraper.datasets_path
+        self.scraper.datasets_path = "lpmd/tests/core/.tmp/{data_id}/".format(
+            data_id=self.scraper.data_id
+        )
+        file = "{data_id}.parquet.zstd".format(data_id=self.scraper.data_id)
+
+        # 保存先パス文字列のテスト.
+        exp_file_path = os.path.join(self.scraper.datasets_path, file)
+        tgt_file_path = self.scraper.out_to_datasets()
+        assert tgt_file_path == exp_file_path
+
+        # 実際にファイルが保存されているか確認.
+        assert os.path.exists(tgt_file_path)
+
+        # cleanup
+        shutil.rmtree("lpmd/tests/core/.tmp/")
+        self.scraper.datasets_path = original_datasets_path
+
+
+# -------------------------
+# ScraperCarcass pytest
+# -------------------------
+
+test_carcass_data_id = "carcass"
+test_carcass_partition_id = "00.All"
+test_carcass_url = "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032118040&fileKind=0"
+test_carcass_error_url = "http://xxxxxx/dummy/test/xxxxxx.jp"
+
+
+class TestScraperCarcass:
+    @pytest.fixture()
+    def setup(self):
+        self.scraper = ScraperCarcass()
+
+    def test_get_scraped_data(self, setup):
+        df = self.scraper.get_scraped_data(partition_id=test_carcass_partition_id)
+        assert len(df) > 0
+
+        self.scraper.data_catalogue["partition"][
+            test_carcass_partition_id
+        ] = test_carcass_error_url
+        df = self.scraper.get_scraped_data(partition_id=test_carcass_partition_id)
+        assert df is None
+
+        self.scraper.data_catalogue["partition"][
+            test_carcass_partition_id
+        ] = test_carcass_url
 
     def test_out_to_datasets(self, setup):
         original_datasets_path = self.scraper.datasets_path

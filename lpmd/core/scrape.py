@@ -223,3 +223,75 @@ class ScraperShipment(BaseScraper):
             df_scraped["source_url"] = self.data_catalogue["partition"][partition_id]
             df_scraped.reset_index(drop=True, inplace=True)
         return df_scraped
+
+
+class ScraperSlaughter(BaseScraper):
+    """Scraper class for data on animals slaughtered and abattoirs."""
+
+    _data_id = "slaughter"
+
+    def __init__(self):
+        super(ScraperSlaughter, self).__init__(self._data_id)
+
+    def get_scraped_data(self, partition_id):
+        """
+        Get scraped data corresponding to partition_id for animals slaughtered and abattoirs.
+
+        Parameters
+        ----------
+        partition_id : str
+            String expressing which partition data should be scraped in data_catalogue.yml.
+
+        Returns
+        -------
+        df_scraped : pandas.core.frame.DataFrame
+            Scraped data that are not cleansed.
+
+        """
+        df_scraped = super().get_scraped_data(partition_id)
+        if df_scraped is not None:
+            df_scraped = df_scraped[
+                (df_scraped.index >= 7) & (~df_scraped["year"].isna())
+            ]
+            df_scraped = self._cleanse_scraped_data(df_scraped)
+            df_scraped["data_source"] = self.data_catalogue["name"]
+            df_scraped["prefecture"] = partition_id
+            df_scraped["source_url"] = self.data_catalogue["partition"][partition_id]
+            df_scraped.reset_index(drop=True, inplace=True)
+        return df_scraped
+
+
+class ScraperCarcass(BaseScraper):
+    """Scraper class for data on carcass."""
+
+    _data_id = "carcass"
+
+    def __init__(self):
+        super(ScraperCarcass, self).__init__(self._data_id)
+
+    def get_scraped_data(self, partition_id):
+        """
+        Get scraped data corresponding to partition_id for carcass.
+
+        Parameters
+        ----------
+        partition_id : str
+            String expressing which partition data should be scraped in data_catalogue.yml.
+
+        Returns
+        -------
+        df_scraped : pandas.core.frame.DataFrame
+            Scraped data that are not cleansed.
+
+        """
+        df_scraped = super().get_scraped_data(partition_id)
+        if df_scraped is not None:
+            df_scraped = df_scraped[
+                (df_scraped.index >= 7) & (~df_scraped["year"].isna())
+            ]
+            df_scraped = self._cleanse_scraped_data(df_scraped)
+            df_scraped["data_source"] = self.data_catalogue["name"]
+            df_scraped["prefecture"] = partition_id
+            df_scraped["source_url"] = self.data_catalogue["partition"][partition_id]
+            df_scraped.reset_index(drop=True, inplace=True)
+        return df_scraped
