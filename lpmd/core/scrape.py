@@ -2,6 +2,7 @@
 
 import os
 import shutil
+from importlib import resources
 
 import dask.dataframe as dd
 import pandas as pd
@@ -29,8 +30,9 @@ class BaseScraper:
         self.data_id = data_id
 
         # Read yml file on urls
-        with open("data_catalogue.yml", "r") as yml:
-            data_catalogue = yaml.safe_load(yml)
+        data_catalogue = yaml.safe_load(
+            resources.read_text("lpmd", "data_catalogue.yml")
+        )
         self.data_catalogue = data_catalogue[self.data_id]
         self.columns = self.data_catalogue["columns"]
         self.datasets_path = "lpmd/datasets/{data_id}/".format(data_id=self.data_id)
