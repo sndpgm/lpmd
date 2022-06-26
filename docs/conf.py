@@ -67,3 +67,13 @@ autodoc_default_options = {
     "member-order": "bysource",
     "special-members": "__init__",
 }
+
+# -- Build API doc ----------------------------------------------------------
+
+numpydoc_show_class_members = False
+
+fpath = os.path.dirname(__file__)
+ref_path = os.path.join(fpath, "reference")
+app_path = os.path.join(os.path.dirname(fpath), "lpmd")
+apidoc_cmd = "sphinx-apidoc -e -f -d 5 --templatedir {0}/_templates/apidoc -o {1} {2} '{2}/tests/*'"
+os.system(apidoc_cmd.format(fpath, ref_path, app_path))
