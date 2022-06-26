@@ -2,6 +2,7 @@
 
 import os
 import shutil
+from importlib import resources
 
 import numpy as np
 import pandas as pd
@@ -35,8 +36,9 @@ class TestBaseScraper:
     def test_init_property(self, setup):
         assert self.base.data_id == test_data_id
 
-        with open("data_catalogue.yml", "r") as yml:
-            data_catalogue = yaml.safe_load(yml)
+        data_catalogue = yaml.safe_load(
+            resources.read_text("lpmd", "data_catalogue.yml")
+        )
         assert self.base.data_catalogue == data_catalogue[test_data_id]
         assert self.base.columns == data_catalogue[test_data_id]["columns"]
 
