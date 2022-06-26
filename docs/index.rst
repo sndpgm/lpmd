@@ -11,7 +11,8 @@ Welcome to lpmd's documentation!
    :caption: Contents:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: モジュールドキュメント:
 
-   reference/modules
+   reference/lpmd.core
+   reference/lpmd.utils
